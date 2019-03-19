@@ -4,14 +4,13 @@
 #
 Name     : R-eha
 Version  : 2.6.0
-Release  : 9
+Release  : 10
 URL      : https://cran.r-project.org/src/contrib/eha_2.6.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/eha_2.6.0.tar.gz
 Summary  : Event History Analysis
 Group    : Development/Tools
 License  : GPL-2.0+
 Requires: R-eha-lib = %{version}-%{release}
-Requires: R-markdown
 BuildRequires : R-markdown
 BuildRequires : buildreq-R
 
@@ -38,10 +37,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552753118
+export SOURCE_DATE_EPOCH=1552956142
 
 %install
-export SOURCE_DATE_EPOCH=1552753118
+export SOURCE_DATE_EPOCH=1552956142
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
