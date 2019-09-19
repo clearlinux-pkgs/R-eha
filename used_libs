@@ -4,5 +4,5 @@ libRlapack.so
 libc.so.6
 libgfortran.so.5
 libm.so.6
-libopenblas.so.0
+libmvec.so.1
 libquadmath.so.0
