@@ -4,7 +4,7 @@
 #
 Name     : R-eha
 Version  : 2.7.6
-Release  : 15
+Release  : 16
 URL      : https://cran.r-project.org/src/contrib/eha_2.7.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/eha_2.7.6.tar.gz
 Summary  : Event History Analysis
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : GPL-2.0+
 Requires: R-eha-lib = %{version}-%{release}
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 the Lexis diagram, bootstrapping. Parametric proportional 
@@ -36,10 +37,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1568909263
+export SOURCE_DATE_EPOCH=1571822846
 
 %install
-export SOURCE_DATE_EPOCH=1568909263
+export SOURCE_DATE_EPOCH=1571822846
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
