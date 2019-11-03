@@ -4,7 +4,7 @@
 #
 Name     : R-eha
 Version  : 2.7.6
-Release  : 16
+Release  : 17
 URL      : https://cran.r-project.org/src/contrib/eha_2.7.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/eha_2.7.6.tar.gz
 Summary  : Event History Analysis
