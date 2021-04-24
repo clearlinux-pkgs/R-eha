@@ -4,7 +4,7 @@
 #
 Name     : R-eha
 Version  : 2.8.5
-Release  : 27
+Release  : 28
 URL      : https://cran.r-project.org/src/contrib/eha_2.8.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/eha_2.8.5.tar.gz
 Summary  : Event History Analysis
