@@ -4,7 +4,7 @@
 #
 Name     : R-eha
 Version  : 2.10.0
-Release  : 42
+Release  : 43
 URL      : https://cran.r-project.org/src/contrib/eha_2.10.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/eha_2.10.0.tar.gz
 Summary  : Event History Analysis
