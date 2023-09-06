@@ -1,5 +1,5 @@
 PKG_NAME := R-eha
-URL = https://cran.r-project.org/src/contrib/eha_2.10.3.tar.gz
+URL = https://cran.r-project.org/src/contrib/eha_2.11.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
